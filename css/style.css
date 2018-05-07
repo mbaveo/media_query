@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  /* display: flex; */
+  background-color: tan;
+    color: black;
+}
+
+.one{
+  background-color: lightblue;
+  height: 400px;
+}
+
+
+
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+        color: white;
+    }
+}
